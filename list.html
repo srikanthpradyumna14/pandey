@@ -1,0 +1,10 @@
+<h1>listner example</h1>
+<input type="button" value="click me" id="b1">
+<span id="span1"></span><br>
+<script>
+ document.getElementById("b1").addEventListener("click",f1);
+
+    function f1(){
+        document.getElementById("span1").innerHTML="button clicked";
+    }
+</script>
